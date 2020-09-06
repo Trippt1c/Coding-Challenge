@@ -74,7 +74,7 @@ public class ClusterAnalysis
         {
             if((Math.abs(scores[i-1]-scores[i])/scores[i-1])<.3)
             {
-                System.out.println("Optimal Number of Clusters: " + (i-1));
+                System.out.println("Optimal Number of Clusters: " + (i));
                 break;
             }
         }
